@@ -33,5 +33,13 @@ Xcompile是通过静态分析的方法检测二进制程序可能存在的漏洞
 
 
 	
+########## 安装过程
+Windows 和 Unix 安装过程比较简单:
 
+根目录下执行 mvn clean
+再执行 mvn package -DskipTests 
+
+最后运行:
+
+java -jar Xcomplie-<version>-shaded.jar <options> <file>
 
